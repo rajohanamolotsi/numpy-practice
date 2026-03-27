@@ -46,3 +46,19 @@ Thumbs.db
 # Editor directories
 .idea/
 .vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+~/.ipynb_checkpoints/
+# *.json  # kernel connection files (be selective)
+
+# Kernel specs with local paths
+share/jupyter/kernels/*/kernel.json  # if it contains machine-specific paths
