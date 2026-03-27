@@ -1,0 +1,16 @@
+# Normalize line endings
+* text=auto
+
+# LaTeX source files
+*.tex text diff=tex
+*.bib text
+*.cls text
+*.sty text
+
+# Git LFS for binary files
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.eps filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text

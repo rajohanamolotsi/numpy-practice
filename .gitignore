@@ -1,0 +1,48 @@
+# Compiled files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+# *.pdf
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# Compiled directories
+auto/
+_output/
+
+# Temporary files
+*.bak
+*.dpth
+*.ilg
+*.ind
+*.dvi
+*.ps
+*.ent
+*.md5
+*.lol
+*.ini
+
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
